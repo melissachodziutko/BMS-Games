@@ -26,18 +26,18 @@ Below are step-by-step instructions for working on and merging your own branch w
 **Create and Checkout Your New Branch**
 > git pull
 
-> git checkout -b (LASTNAME)
+> git checkout -b YOUR_LASTNAME
 
 You can now change the project as you would normally. When you are ready to commit your 
 changes, move on to the next steps.
 
 **Pushing Your Changes to Remote for the First Time**
-> git commit -a -m "(A message detailing your changes)"
+> git commit -a -m "A message detailing your changes"
   
-> git push --set-upstream origin <LASTNAME>
+> git push --set-upstream origin YOUR_LASTNAME
 
 **Pushing Your Changes to Remote Any Other Time**
-> git commit -a -m "(A message detailing your changes)"
+> git commit -a -m "A message detailing your changes"
   
 > git push
 
