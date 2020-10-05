@@ -157,7 +157,7 @@ public class BeatObject : MonoBehaviour
         {
             BeatCounter.instance.OkHit();
         }
-        else if (transform.position.x > noteCatcher.transform.position.x + 10 || transform.position.x < noteCatcher.transform.position.x - 10)
+        else if (transform.position.x > noteCatcher.transform.position.x + 5 || transform.position.x < noteCatcher.transform.position.x - 5)
         {
             BeatCounter.instance.GreatHit();
         }
