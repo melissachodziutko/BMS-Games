@@ -11,12 +11,15 @@ public class BeatObject : MonoBehaviour
 
     public GameObject noteCatcher;
 
+    public int isAlive;
+
     void Awake()
     {
         noteCatcher = GameObject.Find("Note Catcher");
-        Debug.Log(noteCatcher.transform.position.x);
 
         controls = new PlayerControls();
+
+        isAlive = 1;
 
         controls.Gameplay.FaceButtons.performed += ctx => FaceButtonCheck();
         controls.Gameplay.DirectionalButtons.performed += ctx => DirectionalButtonCheck();
@@ -147,6 +150,7 @@ public class BeatObject : MonoBehaviour
         if (isHit)
         {
             BeatCheck();
+            isAlive = 0;
             Destroy(gameObject);
         }
     }
@@ -177,7 +181,7 @@ public class BeatObject : MonoBehaviour
 
     public void OnTriggerExit2D(Collider2D col)
     {
-        if (col.tag == "Activator")
+        if (col.tag == "Activator" && isAlive == 1)
         {
             isHit = false;
             BeatCounter.instance.BeatMiss();
