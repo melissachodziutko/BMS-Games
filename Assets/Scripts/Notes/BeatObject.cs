@@ -6,10 +6,13 @@ using UnityEngine.InputSystem;
 public class BeatObject : MonoBehaviour
 {
     public bool isHit;                      // checks if button was pressed
-
     PlayerControls controls;
-
     public GameObject noteCatcher;
+<<<<<<< Updated upstream
+=======
+    public int isAlive;
+    public GameObject hitEffect;
+>>>>>>> Stashed changes
 
     void Awake()
     {
@@ -22,6 +25,52 @@ public class BeatObject : MonoBehaviour
         controls.Gameplay.DirectionalButtons.performed += ctx => DirectionalButtonCheck();
         controls.Gameplay.ShoulderButtons.performed += ctx => ShoulderButtonCheck();
         controls.Gameplay.AnalogSticks.performed += ctx => AnalogStickCheck(ctx.ReadValue<Vector2>());
+    }
+
+    void OnEnable()
+    {
+        controls.Gameplay.Enable();
+    }
+
+    void OnDisable()
+    {
+        controls.Gameplay.Disable();
+    }
+
+    void Start()
+    {
+        
+    }
+
+    void Update()
+    {
+        KeyboardCheck();
+    }
+
+    #region Button Checks
+    void KeyboardCheck()
+    {
+        /** Checks for arrow pad/WASD directionals and angle of beat object
+         * if direction lines up with angle,
+         * if it was hit
+         * destroy object instance
+        **/
+        if ((Input.GetAxis("Horizontal") > 0))
+        {
+            IsHit();
+        }
+        else if ((Input.GetAxis("Horizontal") < 0))
+        {
+            IsHit();
+        }
+        else if ((Input.GetAxis("Vertical") > 0))
+        {
+            IsHit();
+        }
+        else if ((Input.GetAxis("Vertical") < 0))
+        {
+            IsHit();
+        }
     }
 
     void FaceButtonCheck()
@@ -101,47 +150,9 @@ public class BeatObject : MonoBehaviour
         Debug.Log(dir);
         IsHit();
     }
+    #endregion
 
-    void OnEnable()
-    {
-        controls.Gameplay.Enable();
-    }
-
-    void OnDisable()
-    {
-        controls.Gameplay.Disable();
-    }
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        /** Checks for arrow pad/WASD directionals and angle of beat object
-         * if direction lines up with angle,
-         * if it was hit
-         * destroy object instance
-        **/
-        if ((Input.GetAxis("Horizontal") > 0))
-        {
-            IsHit();
-        }
-        else if ((Input.GetAxis("Horizontal") < 0))
-        {
-            IsHit();
-        }
-        else if ((Input.GetAxis("Vertical") > 0))
-        {
-            IsHit();
-        }
-        else if ((Input.GetAxis("Vertical") < 0))
-        {
-            IsHit();
-        }
-    }
-
+    #region Beat Checks
     private void IsHit()
     {
         if (isHit)
@@ -156,17 +167,22 @@ public class BeatObject : MonoBehaviour
         if (transform.position.x > noteCatcher.transform.position.x + 15 || transform.position.x < noteCatcher.transform.position.x - 15)
         {
             BeatCounter.instance.OkHit();
+            Instantiate(hitEffect, transform.position, hitEffect.transform.rotation);
         }
         else if (transform.position.x > noteCatcher.transform.position.x + 5 || transform.position.x < noteCatcher.transform.position.x - 5)
         {
             BeatCounter.instance.GreatHit();
+            Instantiate(hitEffect, transform.position, hitEffect.transform.rotation);
         }
         else
         {
             BeatCounter.instance.PerfectHit();
+            Instantiate(hitEffect, transform.position, hitEffect.transform.rotation);
         }
     }
+    #endregion
 
+    #region Collision Checks
     public void OnTriggerEnter2D(Collider2D col)
     {
         if (col.tag == "Activator")
@@ -180,7 +196,10 @@ public class BeatObject : MonoBehaviour
         if (col.tag == "Activator")
         {
             isHit = false;
+
             BeatCounter.instance.BeatMiss();
+            Instantiate(hitEffect, transform.position, hitEffect.transform.rotation);
         }
     }
+    #endregion
 }
