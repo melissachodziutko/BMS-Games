@@ -13,6 +13,8 @@ public class BeatObject : MonoBehaviour
     public int isAlive;
     public ButtonType buttonType;
     public Image buttonImg;
+    //private int Xbox_One_Controller = 0;
+    //private int PS4_Controller = 0;
 
     void Awake()
     {
@@ -66,103 +68,104 @@ public class BeatObject : MonoBehaviour
         //    }
         //};
 
-        if (Input.GetJoystickNames().Length > 0)
+
+        //if (Input.GetJoystickNames().Length > 0)
+        //{
+        //    Debug.Log("Controller connected");
+        //    switch (gameObject.tag)
+        //    {
+        //        case "FaceButton_X":
+        //            buttonImg.sprite = buttonType.faceButton_X;
+        //            break;
+        //        case "FaceButton_O":
+        //            buttonImg.sprite = buttonType.faceButton_O;
+        //            break;
+        //        case "FaceButton_Tri":
+        //            buttonImg.sprite = buttonType.faceButton_Tri;
+        //            break;
+        //        case "FaceButton_Sq":
+        //            buttonImg.sprite = buttonType.faceButton_Sq;
+        //            break;
+        //        case "FaceButton_Up":
+        //            buttonImg.sprite = buttonType.faceButton_Up;
+        //            break;
+        //        case "FaceButton_Down":
+        //            buttonImg.sprite = buttonType.faceButton_Down;
+        //            break;
+        //        case "FaceButton_Left":
+        //            buttonImg.sprite = buttonType.faceButton_Left;
+        //            break;
+        //        case "FaceButton_Right":
+        //            buttonImg.sprite = buttonType.faceButton_Right;
+        //            break;
+        //        case "FaceButton_LShoulder":
+        //            buttonImg.sprite = buttonType.faceButton_LShoulder;
+        //            break;
+        //        case "FaceButton_RShoulder":
+        //            buttonImg.sprite = buttonType.faceButton_RShoulder;
+        //            break;
+        //        case "FaceButton_LTrigger":
+        //            buttonImg.sprite = buttonType.faceButton_LTrigger;
+        //            break;
+        //        case "FaceButton_RTrigger":
+        //            buttonImg.sprite = buttonType.faceButton_RTrigger;
+        //            break;
+        //        case "FaceButton_LStick":
+        //            buttonImg.sprite = buttonType.faceButton_LStick;
+        //            break;
+        //        case "FaceButton_RStick":
+        //            buttonImg.sprite = buttonType.faceButton_RStick;
+        //            break;
+        //    }
+        //} else
+        //{
+        // Debug.Log("Leyboard");
+        switch (gameObject.tag)
         {
-            Debug.Log("Controller connected");
-            switch (gameObject.tag)
-            {
-                case "FaceButton_X":
-                    buttonImg.sprite = buttonType.faceButton_X;
-                    break;
-                case "FaceButton_O":
-                    buttonImg.sprite = buttonType.faceButton_O;
-                    break;
-                case "FaceButton_Tri":
-                    buttonImg.sprite = buttonType.faceButton_Tri;
-                    break;
-                case "FaceButton_Sq":
-                    buttonImg.sprite = buttonType.faceButton_Sq;
-                    break;
-                case "FaceButton_Up":
-                    buttonImg.sprite = buttonType.faceButton_Up;
-                    break;
-                case "FaceButton_Down":
-                    buttonImg.sprite = buttonType.faceButton_Down;
-                    break;
-                case "FaceButton_Left":
-                    buttonImg.sprite = buttonType.faceButton_Left;
-                    break;
-                case "FaceButton_Right":
-                    buttonImg.sprite = buttonType.faceButton_Right;
-                    break;
-                case "FaceButton_LShoulder":
-                    buttonImg.sprite = buttonType.faceButton_LShoulder;
-                    break;
-                case "FaceButton_RShoulder":
-                    buttonImg.sprite = buttonType.faceButton_RShoulder;
-                    break;
-                case "FaceButton_LTrigger":
-                    buttonImg.sprite = buttonType.faceButton_LTrigger;
-                    break;
-                case "FaceButton_RTrigger":
-                    buttonImg.sprite = buttonType.faceButton_RTrigger;
-                    break;
-                case "FaceButton_LStick":
-                    buttonImg.sprite = buttonType.faceButton_LStick;
-                    break;
-                case "FaceButton_RStick":
-                    buttonImg.sprite = buttonType.faceButton_RStick;
-                    break;
-            }
-        } else
-        {
-            Debug.Log("Leyboard");
-            switch (gameObject.tag)
-            {
-                case "FaceButton_X":
-                    buttonImg.sprite = buttonType.keyboardButton_I;
-                    break;
-                case "FaceButton_O":
-                    buttonImg.sprite = buttonType.keyboardButton_K;
-                    break;
-                case "FaceButton_Tri":
-                    buttonImg.sprite = buttonType.keyboardButton_J;
-                    break;
-                case "FaceButton_Sq":
-                    buttonImg.sprite = buttonType.keyboardButton_L;
-                    break;
-                case "FaceButton_Up":
-                    buttonImg.sprite = buttonType.keyboardButton_W;
-                    break;
-                case "FaceButton_Down":
-                    buttonImg.sprite = buttonType.keyboardButton_S;
-                    break;
-                case "FaceButton_Left":
-                    buttonImg.sprite = buttonType.keyboardButton_A;
-                    break;
-                case "FaceButton_Right":
-                    buttonImg.sprite = buttonType.keyboardButton_D;
-                    break;
-                case "FaceButton_LShoulder":
-                    buttonImg.sprite = buttonType.keyboardButton_T;
-                    break;
-                case "FaceButton_RShoulder":
-                    buttonImg.sprite = buttonType.keyboardButton_G;
-                    break;
-                case "FaceButton_LTrigger":
-                    buttonImg.sprite = buttonType.keyboardButton_F;
-                    break;
-                case "FaceButton_RTrigger":
-                    buttonImg.sprite = buttonType.keyboardButton_H;
-                    break;
-                case "FaceButton_LStick":
-                    buttonImg.sprite = buttonType.keyboardButton_LMouse;
-                    break;
-                case "FaceButton_RStick":
-                    buttonImg.sprite = buttonType.keyboardButton_RMouse;
-                    break;
-            }
+            case "FaceButton_X":
+                buttonImg.sprite = buttonType.keyboardButton_I;
+                break;
+            case "FaceButton_O":
+                buttonImg.sprite = buttonType.keyboardButton_K;
+                break;
+            case "FaceButton_Tri":
+                buttonImg.sprite = buttonType.keyboardButton_J;
+                break;
+            case "FaceButton_Sq":
+                buttonImg.sprite = buttonType.keyboardButton_L;
+                break;
+            case "FaceButton_Up":
+                buttonImg.sprite = buttonType.keyboardButton_W;
+                break;
+            case "FaceButton_Down":
+                buttonImg.sprite = buttonType.keyboardButton_S;
+                break;
+            case "FaceButton_Left":
+                buttonImg.sprite = buttonType.keyboardButton_A;
+                break;
+            case "FaceButton_Right":
+                buttonImg.sprite = buttonType.keyboardButton_D;
+                break;
+            case "FaceButton_LShoulder":
+                buttonImg.sprite = buttonType.keyboardButton_T;
+                break;
+            case "FaceButton_RShoulder":
+                buttonImg.sprite = buttonType.keyboardButton_G;
+                break;
+            case "FaceButton_LTrigger":
+                buttonImg.sprite = buttonType.keyboardButton_F;
+                break;
+            case "FaceButton_RTrigger":
+                buttonImg.sprite = buttonType.keyboardButton_H;
+                break;
+            case "FaceButton_LStick":
+                buttonImg.sprite = buttonType.keyboardButton_LMouse;
+                break;
+            case "FaceButton_RStick":
+                buttonImg.sprite = buttonType.keyboardButton_RMouse;
+                break;
         }
+        //}
     }
 
     void keyboardCheck()
@@ -188,6 +191,34 @@ public class BeatObject : MonoBehaviour
         {
             IsHit();
         }
+
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            IsHit();
+        } else if (Input.GetKeyDown(KeyCode.K))
+        {
+            IsHit();
+        } else if (Input.GetKeyDown(KeyCode.J))
+        {
+            IsHit();
+        } else if (Input.GetKeyDown(KeyCode.L))
+        {
+            IsHit();
+        }
+
+        //if (Input.GetKeyDown(KeyCode.T))
+        //{
+        //    IsHit();
+        //} else if (Input.GetKeyDown(KeyCode.G))
+        //{
+        //    IsHit();
+        //} else if (Input.GetKeyDown(KeyCode.F))
+        //{
+        //    IsHit();
+        //} else if (Input.GetKeyDown(KeyCode.H))
+        //{
+        //    IsHit();
+        //}
     }
 
     void FaceButtonCheck()
