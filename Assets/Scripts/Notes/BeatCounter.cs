@@ -51,6 +51,14 @@ public class BeatCounter : MonoBehaviour
         currMultiplier = 1;
 
         timer = delay;
+
+        for (int i = 0; i < beatCount.Length; i++)
+        {
+            if (i == 0)
+                beatCount[i] = GameObject.Find("Note");
+            else
+                beatCount[i] = GameObject.Find("Note (" + i + ")");
+        }
     }
 
     void Update()
@@ -141,6 +149,18 @@ public class BeatCounter : MonoBehaviour
         multiplierTxt.text = "Multiplier:   x" + currMultiplier;
 
         missedBeats++;
+
+        //* ADDED FOR ALPHA BUILD; SUBJECT TO CHANGE IN FUTURE BUILDS
+        // If player misses three beats, the music stops. This casues the
+        // results panel to display.
+        if (missedBeats >= 3)
+        {
+            audioSource.Stop();
+            Destroy(GameObject.Find("Notes"));
+            Destroy(GameObject.Find("HUDText"));
+            Destroy(GameObject.Find("Chords"));
+        }
+        //*/
     }
     #endregion
 
