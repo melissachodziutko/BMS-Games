@@ -51,6 +51,14 @@ public class BeatCounter : MonoBehaviour
         currMultiplier = 1;
 
         timer = delay;
+
+        for (int i = 0; i < beatCount.Length; i++)
+        {
+            if (i == 0)
+                beatCount[i] = GameObject.Find("Note");
+            else
+                beatCount[i] = GameObject.Find("Note (" + i + ")");
+        }
     }
 
     void Update()
