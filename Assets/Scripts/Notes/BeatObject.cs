@@ -13,8 +13,6 @@ public class BeatObject : MonoBehaviour
     public int isAlive;
     public ButtonType buttonType;
     public Image buttonImg;
-    //private int Xbox_One_Controller = 0;
-    //private int PS4_Controller = 0;
 
     void Awake()
     {
@@ -175,34 +173,42 @@ public class BeatObject : MonoBehaviour
          * if it was hit
          * destroy object instance
         **/
-        if ((Input.GetAxis("Horizontal") > 0))
+        if ((Input.GetKeyDown(KeyCode.W)) && (gameObject.tag == "FaceButton_Up"))
         {
+            Debug.Log("W");
             IsHit();
         }
-        else if ((Input.GetAxis("Horizontal") < 0))
+        else if ((Input.GetKeyDown(KeyCode.S)) && (gameObject.tag == "FaceButton_Down"))
         {
+            Debug.Log("S");
             IsHit();
         }
-        else if ((Input.GetAxis("Vertical") > 0))
+        else if ((Input.GetKeyDown(KeyCode.A)) && (gameObject.tag == "FaceButton_Left"))
         {
+            Debug.Log("A");
             IsHit();
         }
-        else if ((Input.GetAxis("Vertical") < 0))
+        else if ((Input.GetKeyDown(KeyCode.D)) && (gameObject.tag == "FaceButton_Right"))
         {
+            Debug.Log("D");
             IsHit();
         }
 
-        if (Input.GetKeyDown(KeyCode.I))
+        if ((Input.GetKeyDown(KeyCode.I)) && (gameObject.tag == "FaceButton_X"))
         {
+            Debug.Log("I");
             IsHit();
-        } else if (Input.GetKeyDown(KeyCode.K))
+        } else if ((Input.GetKeyDown(KeyCode.K)) && (gameObject.tag == "FaceButton_O"))
         {
+            Debug.Log("K");
             IsHit();
-        } else if (Input.GetKeyDown(KeyCode.J))
+        } else if ((Input.GetKeyDown(KeyCode.J)) && (gameObject.tag == "FaceButton_Tri"))
         {
+            Debug.Log("J");
             IsHit();
-        } else if (Input.GetKeyDown(KeyCode.L))
+        } else if ((Input.GetKeyDown(KeyCode.L)) && (gameObject.tag == "FaceButton_Sq"))
         {
+            Debug.Log("L");
             IsHit();
         }
 
