@@ -448,33 +448,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4adedd5a910ca544cb9f03a0c9eb8933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyboardButton_I: {fileID: 4894474107839070918, guid: 0c4485ee502a922448c9c3bb326a0265,
+  keyboardButton_I: {fileID: 1724545888465786639, guid: ae848c4c81d201048b64b644e28f4e6f,
     type: 3}
-  keyboardButton_K: {fileID: 4982947861342682830, guid: 0c4485ee502a922448c9c3bb326a0265,
+  keyboardButton_K: {fileID: 8247417406301206995, guid: ae848c4c81d201048b64b644e28f4e6f,
     type: 3}
-  keyboardButton_J: {fileID: 7889941370427014707, guid: 0c4485ee502a922448c9c3bb326a0265,
+  keyboardButton_J: {fileID: -6895117610486432903, guid: ae848c4c81d201048b64b644e28f4e6f,
     type: 3}
-  keyboardButton_L: {fileID: -2685580056932457023, guid: 0c4485ee502a922448c9c3bb326a0265,
+  keyboardButton_L: {fileID: 80428197330953009, guid: ae848c4c81d201048b64b644e28f4e6f,
     type: 3}
-  keyboardButton_W: {fileID: -7073520693936068836, guid: 0c4485ee502a922448c9c3bb326a0265,
+  keyboardButton_W: {fileID: -929772349140163217, guid: ae848c4c81d201048b64b644e28f4e6f,
     type: 3}
-  keyboardButton_S: {fileID: -4463541183993295612, guid: 0c4485ee502a922448c9c3bb326a0265,
+  keyboardButton_S: {fileID: -266841095860896904, guid: ae848c4c81d201048b64b644e28f4e6f,
     type: 3}
-  keyboardButton_A: {fileID: 2874506310412355117, guid: 0c4485ee502a922448c9c3bb326a0265,
+  keyboardButton_A: {fileID: 4772126055779749277, guid: ae848c4c81d201048b64b644e28f4e6f,
     type: 3}
-  keyboardButton_D: {fileID: 4382407599940285797, guid: 0c4485ee502a922448c9c3bb326a0265,
+  keyboardButton_D: {fileID: 2816766319350486829, guid: ae848c4c81d201048b64b644e28f4e6f,
     type: 3}
-  keyboardButton_T: {fileID: -2037564856605149493, guid: 0c4485ee502a922448c9c3bb326a0265,
+  keyboardButton_Space: {fileID: -1850473283022616290, guid: ae848c4c81d201048b64b644e28f4e6f,
     type: 3}
-  keyboardButton_G: {fileID: -7095113848714215913, guid: 0c4485ee502a922448c9c3bb326a0265,
+  keyboardButton_LMouse: {fileID: -2406265538413225133, guid: ae848c4c81d201048b64b644e28f4e6f,
     type: 3}
-  keyboardButton_F: {fileID: -687116841773290908, guid: 0c4485ee502a922448c9c3bb326a0265,
-    type: 3}
-  keyboardButton_H: {fileID: -2889551934074895982, guid: 0c4485ee502a922448c9c3bb326a0265,
-    type: 3}
-  keyboardButton_LMouse: {fileID: -2542276482567960518, guid: 0c4485ee502a922448c9c3bb326a0265,
-    type: 3}
-  keyboardButton_RMouse: {fileID: 5715451126621815034, guid: 0c4485ee502a922448c9c3bb326a0265,
+  keyboardButton_RMouse: {fileID: -9104878376154646188, guid: ae848c4c81d201048b64b644e28f4e6f,
     type: 3}
   faceButton_X: {fileID: -6770577929885935115, guid: 7ff2ee2193f3d23469b73fc8c10b9ee6,
     type: 3}

@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Notes\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\AllLevels\ColorChange.cs" />
+    <Compile Include="Assets\Scripts\Notes\EffectObject.cs" />
     <Compile Include="Assets\Scripts\Notes\BeatMovement.cs" />
     <Compile Include="Assets\Scripts\Notes\BeatObject.cs" />
     <Compile Include="Assets\Scripts\Notes\BeatCounter.cs" />

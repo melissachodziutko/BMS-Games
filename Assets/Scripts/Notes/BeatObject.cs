@@ -145,16 +145,16 @@ public class BeatObject : MonoBehaviour
                 buttonImg.sprite = buttonType.keyboardButton_D;
                 break;
             case "FaceButton_LShoulder":
-                buttonImg.sprite = buttonType.keyboardButton_T;
+                buttonImg.sprite = buttonType.keyboardButton_Space;
                 break;
             case "FaceButton_RShoulder":
-                buttonImg.sprite = buttonType.keyboardButton_G;
+                buttonImg.sprite = buttonType.keyboardButton_Space;
                 break;
             case "FaceButton_LTrigger":
-                buttonImg.sprite = buttonType.keyboardButton_F;
+                buttonImg.sprite = buttonType.keyboardButton_Space;
                 break;
             case "FaceButton_RTrigger":
-                buttonImg.sprite = buttonType.keyboardButton_H;
+                buttonImg.sprite = buttonType.keyboardButton_Space;
                 break;
             case "FaceButton_LStick":
                 buttonImg.sprite = buttonType.keyboardButton_LMouse;
@@ -194,21 +194,21 @@ public class BeatObject : MonoBehaviour
             IsHit();
         }
 
-        if ((Input.GetKeyDown(KeyCode.I)) && (gameObject.tag == "FaceButton_X"))
+        if ((Input.GetKeyDown(KeyCode.Y)) && (gameObject.tag == "FaceButton_X"))
+        {
+            Debug.Log("Y");
+            IsHit();
+        } else if ((Input.GetKeyDown(KeyCode.U)) && (gameObject.tag == "FaceButton_O"))
+        {
+            Debug.Log("U");
+            IsHit();
+        } else if ((Input.GetKeyDown(KeyCode.I)) && (gameObject.tag == "FaceButton_Tri"))
         {
             Debug.Log("I");
             IsHit();
-        } else if ((Input.GetKeyDown(KeyCode.K)) && (gameObject.tag == "FaceButton_O"))
+        } else if ((Input.GetKeyDown(KeyCode.O)) && (gameObject.tag == "FaceButton_Sq"))
         {
-            Debug.Log("K");
-            IsHit();
-        } else if ((Input.GetKeyDown(KeyCode.J)) && (gameObject.tag == "FaceButton_Tri"))
-        {
-            Debug.Log("J");
-            IsHit();
-        } else if ((Input.GetKeyDown(KeyCode.L)) && (gameObject.tag == "FaceButton_Sq"))
-        {
-            Debug.Log("L");
+            Debug.Log("O");
             IsHit();
         }
 

@@ -1,49 +1,61 @@
 fileFormatVersion: 2
-guid: 0c4485ee502a922448c9c3bb326a0265
+guid: ae848c4c81d201048b64b644e28f4e6f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4894474107839070918
-    second: Keyboard clip art_0
+      213: 1724545888465786639
+    second: Keyboard clip art 1_0
   - first:
-      213: 4982947861342682830
-    second: Keyboard clip art_1
+      213: 8247417406301206995
+    second: Keyboard clip art 1_1
   - first:
-      213: 7889941370427014707
-    second: Keyboard clip art_2
+      213: 80428197330953009
+    second: Keyboard clip art 1_2
   - first:
-      213: -2685580056932457023
-    second: Keyboard clip art_3
+      213: -1850473283022616290
+    second: Keyboard clip art 1_3
   - first:
-      213: -7073520693936068836
-    second: Keyboard clip art_4
+      213: -6895117610486432903
+    second: Keyboard clip art 1_4
   - first:
-      213: -4463541183993295612
-    second: Keyboard clip art_5
+      213: 7968488196754974533
+    second: Keyboard clip art 1_5
   - first:
-      213: 2874506310412355117
-    second: Keyboard clip art_6
+      213: -4207365694739314983
+    second: Keyboard clip art 1_6
   - first:
-      213: 4382407599940285797
-    second: Keyboard clip art_7
+      213: -7762456189371548751
+    second: Keyboard clip art 1_7
   - first:
-      213: -2037564856605149493
-    second: Keyboard clip art_8
+      213: -929772349140163217
+    second: Keyboard clip art 1_8
   - first:
-      213: -7095113848714215913
-    second: Keyboard clip art_9
+      213: -266841095860896904
+    second: Keyboard clip art 1_9
   - first:
-      213: -687116841773290908
-    second: Keyboard clip art_10
+      213: 4772126055779749277
+    second: Keyboard clip art 1_10
   - first:
-      213: -2889551934074895982
-    second: Keyboard clip art_11
+      213: 2816766319350486829
+    second: Keyboard clip art 1_11
   - first:
-      213: -2542276482567960518
-    second: Keyboard clip art_12
+      213: -7421302858048159492
+    second: Keyboard clip art 1_12
   - first:
-      213: 5715451126621815034
-    second: Keyboard clip art_13
+      213: 4042473748803391345
+    second: Keyboard clip art 1_13
+  - first:
+      213: 4138358501432787438
+    second: Keyboard clip art 1_14
+  - first:
+      213: -2838707621137019543
+    second: Keyboard clip art 1_15
+  - first:
+      213: -2406265538413225133
+    second: Keyboard clip art 1_16
+  - first:
+      213: -9104878376154646188
+    second: Keyboard clip art 1_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -191,7 +203,91 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Keyboard clip art_0
+      name: Keyboard clip art 1_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f071dd83951dee710800000000000000
+      internalID: 1724545888465786639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard clip art 1_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9f4f03f66b47270800000000000000
+      internalID: 8247417406301206995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard clip art 1_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13326d3f40dbd1100800000000000000
+      internalID: 80428197330953009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard clip art 1_3
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 435
+        width: 189
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1906137a5cc156e0800000000000000
+      internalID: -1850473283022616290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard clip art 1_4
       rect:
         serializedVersion: 2
         x: 35
@@ -205,14 +301,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c24810e44aace340800000000000000
-      internalID: 4894474107839070918
+      spriteID: 97b7a6ea01f9f40a0800000000000000
+      internalID: -6895117610486432903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard clip art_1
+      name: Keyboard clip art 1_5
       rect:
         serializedVersion: 2
         x: 122
@@ -226,14 +322,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ece7f99ddacf62540800000000000000
-      internalID: 4982947861342682830
+      spriteID: 547297ccbc1c59e60800000000000000
+      internalID: 7968488196754974533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard clip art_2
+      name: Keyboard clip art 1_6
       rect:
         serializedVersion: 2
         x: 215
@@ -247,14 +343,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33ef5faafd3be7d60800000000000000
-      internalID: 7889941370427014707
+      spriteID: 9d606e4313f6c95c0800000000000000
+      internalID: -4207365694739314983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard clip art_3
+      name: Keyboard clip art 1_7
       rect:
         serializedVersion: 2
         x: 308
@@ -268,14 +364,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c5eaa2ca27eabad0800000000000000
-      internalID: -2685580056932457023
+      spriteID: 1bbf9f71937364490800000000000000
+      internalID: -7762456189371548751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard clip art_4
+      name: Keyboard clip art 1_8
       rect:
         serializedVersion: 2
         x: 401
@@ -289,14 +385,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c17e09ee76ec5dd90800000000000000
-      internalID: -7073520693936068836
+      spriteID: f65258f79f8c813f0800000000000000
+      internalID: -929772349140163217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard clip art_5
+      name: Keyboard clip art 1_9
       rect:
         serializedVersion: 2
         x: 494
@@ -310,14 +406,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40dc0c721f05e02c0800000000000000
-      internalID: -4463541183993295612
+      spriteID: 87b3cb5ef6dfb4cf0800000000000000
+      internalID: -266841095860896904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard clip art_6
+      name: Keyboard clip art 1_10
       rect:
         serializedVersion: 2
         x: 587
@@ -331,14 +427,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d264fb0724c44e720800000000000000
-      internalID: 2874506310412355117
+      spriteID: d9d432a2d5ff93240800000000000000
+      internalID: 4772126055779749277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard clip art_7
+      name: Keyboard clip art 1_11
       rect:
         serializedVersion: 2
         x: 680
@@ -352,14 +448,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 565b96f3e7071dc30800000000000000
-      internalID: 4382407599940285797
+      spriteID: d279b282b0a271720800000000000000
+      internalID: 2816766319350486829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard clip art_8
+      name: Keyboard clip art 1_12
       rect:
         serializedVersion: 2
         x: 773
@@ -373,14 +469,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc6fa33fe8d19b3e0800000000000000
-      internalID: -2037564856605149493
+      spriteID: cf0c27fce5c320990800000000000000
+      internalID: -7421302858048159492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard clip art_9
+      name: Keyboard clip art 1_13
       rect:
         serializedVersion: 2
         x: 866
@@ -394,14 +490,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71e3f6ecb87198d90800000000000000
-      internalID: -7095113848714215913
+      spriteID: 17f8443e470c91830800000000000000
+      internalID: 4042473748803391345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard clip art_10
+      name: Keyboard clip art 1_14
       rect:
         serializedVersion: 2
         x: 959
@@ -415,14 +511,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46a2ae67fded676f0800000000000000
-      internalID: -687116841773290908
+      spriteID: ee18e1f81276e6930800000000000000
+      internalID: 4138358501432787438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard clip art_11
+      name: Keyboard clip art 1_15
       rect:
         serializedVersion: 2
         x: 1052
@@ -436,14 +532,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2914c6153df36e7d0800000000000000
-      internalID: -2889551934074895982
+      spriteID: 96d0fec6572ea98d0800000000000000
+      internalID: -2838707621137019543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard clip art_12
+      name: Keyboard clip art 1_16
       rect:
         serializedVersion: 2
         x: 505
@@ -457,14 +553,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3805b7320508bcd0800000000000000
-      internalID: -2542276482567960518
+      spriteID: 35b9d93ed3a3b9ed0800000000000000
+      internalID: -2406265538413225133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Keyboard clip art_13
+      name: Keyboard clip art 1_17
       rect:
         serializedVersion: 2
         x: 598
@@ -478,8 +574,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af04665948c515f40800000000000000
-      internalID: 5715451126621815034
+      spriteID: 459ba2a4b59f4a180800000000000000
+      internalID: -9104878376154646188
       vertices: []
       indices: 
       edges: []
@@ -487,7 +583,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 26f51bd73a444944f904e84adeb5dad8
+    spriteID: e67bd4db6411cd64fb31cefa8ff0f87c
     internalID: 0
     vertices: []
     indices: 
