@@ -10,10 +10,10 @@ public class ButtonType : MonoBehaviour
      * TGFH -> Space
     **/
     [Header("Keyboard Buttons")]
+    public Sprite keyboardButton_Y;
+    public Sprite keyboardButton_U;
     public Sprite keyboardButton_I;
-    public Sprite keyboardButton_K;
-    public Sprite keyboardButton_J;
-    public Sprite keyboardButton_L;
+    public Sprite keyboardButton_O;
     public Sprite keyboardButton_W;
     public Sprite keyboardButton_S;
     public Sprite keyboardButton_A;

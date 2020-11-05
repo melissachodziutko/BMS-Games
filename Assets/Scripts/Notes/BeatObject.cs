@@ -13,6 +13,7 @@ public class BeatObject : MonoBehaviour
     public int isAlive;
     public ButtonType buttonType;
     public Image buttonImg;
+    public PlayerSoundEffects soundEffects;
 
     void Awake()
     {
@@ -121,16 +122,16 @@ public class BeatObject : MonoBehaviour
         switch (gameObject.tag)
         {
             case "FaceButton_X":
-                buttonImg.sprite = buttonType.keyboardButton_I;
+                buttonImg.sprite = buttonType.keyboardButton_Y;
                 break;
             case "FaceButton_O":
-                buttonImg.sprite = buttonType.keyboardButton_K;
+                buttonImg.sprite = buttonType.keyboardButton_U;
                 break;
             case "FaceButton_Tri":
-                buttonImg.sprite = buttonType.keyboardButton_J;
+                buttonImg.sprite = buttonType.keyboardButton_I;
                 break;
             case "FaceButton_Sq":
-                buttonImg.sprite = buttonType.keyboardButton_L;
+                buttonImg.sprite = buttonType.keyboardButton_O;
                 break;
             case "FaceButton_Up":
                 buttonImg.sprite = buttonType.keyboardButton_W;
@@ -322,14 +323,23 @@ public class BeatObject : MonoBehaviour
         if (transform.position.x > noteCatcher.transform.position.x + 15 || transform.position.x < noteCatcher.transform.position.x - 15)
         {
             BeatCounter.instance.OkHit();
+
+            soundEffects.audio.clip = soundEffects.clips[0];
+            soundEffects.audio.Play();
         }
         else if (transform.position.x > noteCatcher.transform.position.x + 5 || transform.position.x < noteCatcher.transform.position.x - 5)
         {
             BeatCounter.instance.GreatHit();
+
+            soundEffects.audio.clip = soundEffects.clips[0];
+            soundEffects.audio.Play();
         }
         else
         {
             BeatCounter.instance.PerfectHit();
+
+            soundEffects.audio.clip = soundEffects.clips[0];
+            soundEffects.audio.Play();
         }
     }
     #endregion
@@ -349,6 +359,9 @@ public class BeatObject : MonoBehaviour
         {
             isHit = false;
             BeatCounter.instance.BeatMiss();
+
+            soundEffects.audio.clip = soundEffects.clips[1];
+            soundEffects.audio.Play();
         }
     }
     #endregion

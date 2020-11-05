@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\AllLevels\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\AllLevels\ScrollScript.cs" />
     <Compile Include="Assets\Scripts\Notes\ButtonType.cs" />
+    <Compile Include="Assets\Scripts\Notes\PlayerSoundEffects.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Art\Fonts\Lobster\OFL.txt" />
