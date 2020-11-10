@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 54197326}
   m_Layer: 5
   m_Name: Note (77)
-  m_TagString: FaceButton_Down
+  m_TagString: FaceButton_O
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 93636081}
   m_Layer: 5
   m_Name: Note (12)
-  m_TagString: FaceButton_Left
+  m_TagString: FaceButton_Sq
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -990,7 +990,7 @@ GameObject:
   - component: {fileID: 137058395}
   m_Layer: 5
   m_Name: Note (32)
-  m_TagString: FaceButton_Up
+  m_TagString: FaceButton_Tri
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1893,7 +1893,7 @@ GameObject:
   - component: {fileID: 284202368}
   m_Layer: 5
   m_Name: Note (97)
-  m_TagString: FaceButton_Left
+  m_TagString: FaceButton_Tri
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2196,7 +2196,7 @@ GameObject:
   - component: {fileID: 399184224}
   m_Layer: 5
   m_Name: Note (99)
-  m_TagString: FaceButton_Right
+  m_TagString: FaceButton_Sq
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2922,7 +2922,7 @@ GameObject:
   - component: {fileID: 485576664}
   m_Layer: 5
   m_Name: Note (85)
-  m_TagString: FaceButton_Right
+  m_TagString: FaceButton_X
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3144,7 +3144,7 @@ GameObject:
   - component: {fileID: 499912765}
   m_Layer: 5
   m_Name: Note (129)
-  m_TagString: FaceButton_O
+  m_TagString: FaceButton_Left
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3609,7 +3609,7 @@ GameObject:
   - component: {fileID: 583522083}
   m_Layer: 5
   m_Name: Note (107)
-  m_TagString: FaceButton_O
+  m_TagString: FaceButton_Up
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4164,7 +4164,7 @@ GameObject:
   - component: {fileID: 623747989}
   m_Layer: 5
   m_Name: Note (113)
-  m_TagString: FaceButton_Sq
+  m_TagString: FaceButton_Left
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4956,7 +4956,7 @@ GameObject:
   - component: {fileID: 759458128}
   m_Layer: 5
   m_Name: Note (79)
-  m_TagString: FaceButton_Left
+  m_TagString: FaceButton_O
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5067,7 +5067,7 @@ GameObject:
   - component: {fileID: 767840361}
   m_Layer: 5
   m_Name: Note (54)
-  m_TagString: FaceButton_Up
+  m_TagString: FaceButton_X
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5400,7 +5400,7 @@ GameObject:
   - component: {fileID: 800649457}
   m_Layer: 5
   m_Name: Note (65)
-  m_TagString: FaceButton_Right
+  m_TagString: FaceButton_Tri
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5891,7 +5891,7 @@ GameObject:
   - component: {fileID: 950004222}
   m_Layer: 5
   m_Name: Note (83)
-  m_TagString: FaceButton_Left
+  m_TagString: FaceButton_X
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6195,7 +6195,7 @@ GameObject:
   - component: {fileID: 1058523003}
   m_Layer: 5
   m_Name: Note (41)
-  m_TagString: FaceButton_Down
+  m_TagString: FaceButton_O
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6515,7 +6515,7 @@ GameObject:
   - component: {fileID: 1079442291}
   m_Layer: 5
   m_Name: Note (8)
-  m_TagString: FaceButton_Right
+  m_TagString: FaceButton_X
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7326,7 +7326,7 @@ GameObject:
   - component: {fileID: 1195021756}
   m_Layer: 5
   m_Name: Note (73)
-  m_TagString: FaceButton_Up
+  m_TagString: FaceButton_Sq
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7437,7 +7437,7 @@ GameObject:
   - component: {fileID: 1219774231}
   m_Layer: 5
   m_Name: Note (111)
-  m_TagString: FaceButton_Tri
+  m_TagString: FaceButton_Left
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8561,7 +8561,7 @@ GameObject:
   - component: {fileID: 1433105155}
   m_Layer: 5
   m_Name: Note (56)
-  m_TagString: FaceButton_Left
+  m_TagString: FaceButton_X
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8783,7 +8783,7 @@ GameObject:
   - component: {fileID: 1448262486}
   m_Layer: 5
   m_Name: Note (75)
-  m_TagString: FaceButton_Down
+  m_TagString: FaceButton_Sq
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9651,7 +9651,7 @@ GameObject:
   - component: {fileID: 1651805294}
   m_Layer: 5
   m_Name: Note (30)
-  m_TagString: FaceButton_Right
+  m_TagString: FaceButton_Sq
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9762,7 +9762,7 @@ GameObject:
   - component: {fileID: 1705290980}
   m_Layer: 5
   m_Name: Note (6)
-  m_TagString: FaceButton_Down
+  m_TagString: FaceButton_O
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11237,7 +11237,7 @@ GameObject:
   - component: {fileID: 1890206567}
   m_Layer: 5
   m_Name: Note (109)
-  m_TagString: FaceButton_X
+  m_TagString: FaceButton_Down
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11538,7 +11538,7 @@ GameObject:
   - component: {fileID: 1929617358}
   m_Layer: 5
   m_Name: Note (81)
-  m_TagString: FaceButton_Right
+  m_TagString: FaceButton_O
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12457,7 +12457,7 @@ GameObject:
   - component: {fileID: 2118992605}
   m_Layer: 5
   m_Name: Note (123)
-  m_TagString: FaceButton_X
+  m_TagString: FaceButton_Right
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
