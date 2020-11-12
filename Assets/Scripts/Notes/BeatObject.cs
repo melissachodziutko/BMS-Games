@@ -14,6 +14,7 @@ public class BeatObject : MonoBehaviour
     public ButtonType buttonType;
     public Image buttonImg;
     public PlayerSoundEffects soundEffects;
+    public GameObject particleEffect;
 
     void Awake()
     {
@@ -323,6 +324,7 @@ public class BeatObject : MonoBehaviour
         if (transform.position.x > noteCatcher.transform.position.x + 15 || transform.position.x < noteCatcher.transform.position.x - 15)
         {
             BeatCounter.instance.OkHit();
+            Instantiate(particleEffect, transform.position, particleEffect.transform.rotation);
 
             soundEffects.audio.clip = soundEffects.clips[0];
             soundEffects.audio.Play();
@@ -330,6 +332,7 @@ public class BeatObject : MonoBehaviour
         else if (transform.position.x > noteCatcher.transform.position.x + 5 || transform.position.x < noteCatcher.transform.position.x - 5)
         {
             BeatCounter.instance.GreatHit();
+            Instantiate(particleEffect, transform.position, particleEffect.transform.rotation);
 
             soundEffects.audio.clip = soundEffects.clips[0];
             soundEffects.audio.Play();
@@ -337,6 +340,7 @@ public class BeatObject : MonoBehaviour
         else
         {
             BeatCounter.instance.PerfectHit();
+            Instantiate(particleEffect, transform.position, particleEffect.transform.rotation);
 
             soundEffects.audio.clip = soundEffects.clips[0];
             soundEffects.audio.Play();
