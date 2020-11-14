@@ -325,6 +325,7 @@ public class BeatObject : MonoBehaviour
         {
             BeatCounter.instance.OkHit();
             Instantiate(particleEffect, transform.position, particleEffect.transform.rotation);
+            Debug.Log(Instantiate(particleEffect, transform.position, particleEffect.transform.rotation));
 
             soundEffects.audio.clip = soundEffects.clips[0];
             soundEffects.audio.Play();
@@ -333,6 +334,7 @@ public class BeatObject : MonoBehaviour
         {
             BeatCounter.instance.GreatHit();
             Instantiate(particleEffect, transform.position, particleEffect.transform.rotation);
+            Debug.Log(Instantiate(particleEffect, transform.position, particleEffect.transform.rotation));
 
             soundEffects.audio.clip = soundEffects.clips[0];
             soundEffects.audio.Play();
@@ -341,6 +343,7 @@ public class BeatObject : MonoBehaviour
         {
             BeatCounter.instance.PerfectHit();
             Instantiate(particleEffect, transform.position, particleEffect.transform.rotation);
+            Debug.Log(Instantiate(particleEffect, transform.position, particleEffect.transform.rotation));
 
             soundEffects.audio.clip = soundEffects.clips[0];
             soundEffects.audio.Play();
