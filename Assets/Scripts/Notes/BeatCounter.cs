@@ -142,15 +142,15 @@ public class BeatCounter : MonoBehaviour
 
     public void BeatMiss()
     {
-        Debug.Log("Miss");
-
         currMultiplier = 1;
         multiplierTracker = 0;
         multiplierTxt.text = "Multiplier:   x" + currMultiplier;
 
         missedBeats++;
 
-        //* ADDED FOR ALPHA BUILD; SUBJECT TO CHANGE IN FUTURE BUILDS
+        Debug.Log("Misses: " + missedBeats);
+
+        /* ADDED FOR ALPHA BUILD; SUBJECT TO CHANGE IN FUTURE BUILDS
         // If player misses three beats, the music stops. This casues the
         // results panel to display.
         if (missedBeats >= 3)
