@@ -552,10 +552,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &205410659
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1001,10 +997,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &474854330
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1205,10 +1197,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &495890011
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1317,10 +1305,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &521141466
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1508,10 +1492,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &567923885
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2068,10 +2048,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &783107437
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2180,10 +2156,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &910586757
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2292,10 +2264,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &996556524
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2404,10 +2372,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &1000785165
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2516,10 +2480,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &1040734112
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3029,10 +2989,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &1240312004
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3363,10 +3319,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &1368362618
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3475,10 +3427,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &1398124536
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3939,10 +3887,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &1583518501
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4082,10 +4026,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &1681239703
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4352,10 +4292,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &1883707907
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4957,10 +4893,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &2071187898
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5132,10 +5064,6 @@ MonoBehaviour:
   isHit: 0
   noteCatcher: {fileID: 0}
   isAlive: 0
-  buttonType: {fileID: 0}
-  buttonImg: {fileID: 0}
-  soundEffects: {fileID: 0}
-  particleEffect: {fileID: 0}
 --- !u!58 &2105820283
 CircleCollider2D:
   m_ObjectHideFlags: 0
