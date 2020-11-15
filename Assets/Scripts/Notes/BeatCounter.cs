@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class BeatCounter : MonoBehaviour
 {
@@ -28,18 +29,18 @@ public class BeatCounter : MonoBehaviour
 
     [Header("UI Components")]
     // during game
-    public Text scoreTxt;
-    public Text multiplierTxt;
-    public Text hitQualityTxt;
+    public TMP_Text scoreTxt;
+    public TMP_Text multiplierTxt;
+    public TMP_Text hitQualityTxt;
     // post game
     public GameObject resultsScreen;
-    public Text scoreFinalTxt;
-    public Text percentageTxt;
-    public Text rankTxt;
-    public Text okTxt;
-    public Text greatTxt;
-    public Text perfectTxt;
-    public Text missedTxt;
+    public TMP_Text scoreFinalTxt;
+    public TMP_Text percentageTxt;
+    public TMP_Text rankTxt;
+    public TMP_Text okTxt;
+    public TMP_Text greatTxt;
+    public TMP_Text perfectTxt;
+    public TMP_Text missedTxt;
     #endregion
 
     void Start()
@@ -142,6 +143,8 @@ public class BeatCounter : MonoBehaviour
 
     public void BeatMiss()
     {
+        hitQualityTxt.color = Color.red;
+        hitQualityTxt.text = "MISSED";
         currMultiplier = 1;
         multiplierTracker = 0;
         multiplierTxt.text = "Multiplier:   x" + currMultiplier;
