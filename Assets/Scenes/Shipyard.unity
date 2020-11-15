@@ -255,7 +255,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &54197327
 CircleCollider2D:
@@ -537,7 +537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bead3c7396584694cb467c25c59f05c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempo: 15000
+  tempo: 2200
   isStarted: 0
 --- !u!114 &59254487
 MonoBehaviour:
@@ -956,7 +956,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &93636082
 CircleCollider2D:
@@ -1012,6 +1012,112 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93636079}
   m_CullTransparentMesh: 0
+--- !u!1 &99811343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 99811347}
+  - component: {fileID: 99811346}
+  - component: {fileID: 99811344}
+  m_Layer: 0
+  m_Name: UICamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &99811344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99811343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 1
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+--- !u!20 &99811346
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99811343}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 32
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &99811347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99811343}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &126010277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,7 +1445,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &136831059
 CircleCollider2D:
@@ -1452,7 +1558,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &137058396
 CircleCollider2D:
@@ -1565,7 +1671,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &183437405
 CircleCollider2D:
@@ -1678,7 +1784,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &207905383
 CircleCollider2D:
@@ -1791,7 +1897,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &242264835
 CircleCollider2D:
@@ -1875,7 +1981,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250015353}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 59254485}
@@ -1904,7 +2010,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &250015356
 CircleCollider2D:
@@ -1996,7 +2102,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 24133, y: 116}
+  m_AnchoredPosition: {x: 24133, y: 120}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &283782487
@@ -2017,7 +2123,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &283782488
 CircleCollider2D:
@@ -2130,7 +2236,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &284202369
 CircleCollider2D:
@@ -2243,7 +2349,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &287347240
 CircleCollider2D:
@@ -2597,7 +2703,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399184222}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 59254485}
@@ -2626,7 +2732,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &399184225
 CircleCollider2D:
@@ -2739,7 +2845,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &424733420
 CircleCollider2D:
@@ -2852,7 +2958,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &431854933
 CircleCollider2D:
@@ -2965,7 +3071,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &444182914
 CircleCollider2D:
@@ -3078,7 +3184,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &454058482
 CircleCollider2D:
@@ -3419,7 +3525,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &485576665
 CircleCollider2D:
@@ -3532,7 +3638,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &497843667
 CircleCollider2D:
@@ -3645,7 +3751,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &499912766
 CircleCollider2D:
@@ -3861,7 +3967,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &531215721
 CircleCollider2D:
@@ -4103,7 +4209,7 @@ MonoBehaviour:
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1024, y: 768}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -4119,8 +4225,8 @@ Canvas:
   m_GameObject: {fileID: 561601231}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 99811346}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -4147,7 +4253,7 @@ RectTransform:
   - {fileID: 59254485}
   - {fileID: 1818775921}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4249,7 +4355,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &583522084
 CircleCollider2D:
@@ -4362,7 +4468,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &598160725
 CircleCollider2D:
@@ -4475,7 +4581,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &603903482
 CircleCollider2D:
@@ -4559,7 +4665,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610179401}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 59254485}
@@ -4588,7 +4694,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &610179404
 CircleCollider2D:
@@ -4701,7 +4807,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &617722643
 CircleCollider2D:
@@ -4814,7 +4920,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &623747990
 CircleCollider2D:
@@ -4927,7 +5033,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &651705205
 CircleCollider2D:
@@ -5175,7 +5281,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &677042714
 CircleCollider2D:
@@ -5423,7 +5529,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &714037265
 CircleCollider2D:
@@ -5536,7 +5642,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &733859469
 CircleCollider2D:
@@ -5649,7 +5755,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &759458129
 CircleCollider2D:
@@ -5897,7 +6003,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &767840362
 CircleCollider2D:
@@ -6010,7 +6116,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &775564090
 CircleCollider2D:
@@ -6123,7 +6229,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &790387480
 CircleCollider2D:
@@ -6236,7 +6342,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &800649458
 CircleCollider2D:
@@ -6349,7 +6455,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &838275001
 CircleCollider2D:
@@ -6597,7 +6703,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &932258958
 CircleCollider2D:
@@ -6710,7 +6816,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &950004223
 CircleCollider2D:
@@ -6860,7 +6966,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1001551976
 CircleCollider2D:
@@ -6945,7 +7051,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1002532220
 MonoBehaviour:
@@ -7018,7 +7124,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1058523000
 CircleCollider2D:
@@ -7129,7 +7235,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19165, y: 116}
+  m_AnchoredPosition: {x: 19165, y: 120}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1061203202
@@ -7150,7 +7256,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1061203203
 CircleCollider2D:
@@ -7263,7 +7369,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1079442292
 CircleCollider2D:
@@ -7382,7 +7488,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1093993107
 CircleCollider2D:
@@ -7724,7 +7830,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1183284124
 GameObject:
@@ -7783,7 +7889,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1183284127
 CircleCollider2D:
@@ -7896,7 +8002,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1189566525
 CircleCollider2D:
@@ -8009,7 +8115,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1195021757
 CircleCollider2D:
@@ -8122,7 +8228,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1219774232
 CircleCollider2D:
@@ -8235,7 +8341,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1221289241
 CircleCollider2D:
@@ -8348,7 +8454,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1246461418
 CircleCollider2D:
@@ -8461,7 +8567,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1255033593
 CircleCollider2D:
@@ -8574,7 +8680,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1293065552
 CircleCollider2D:
@@ -8687,7 +8793,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1355558974
 CircleCollider2D:
@@ -8935,7 +9041,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1417014341
 CircleCollider2D:
@@ -9158,7 +9264,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1433105156
 CircleCollider2D:
@@ -9271,7 +9377,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1437652746
 CircleCollider2D:
@@ -9384,7 +9490,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1448262487
 CircleCollider2D:
@@ -9475,7 +9581,8 @@ MonoBehaviour:
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
-  m_Cameras: []
+  m_Cameras:
+  - {fileID: 99811346}
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
@@ -9612,7 +9719,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1483042545
 CircleCollider2D:
@@ -9725,7 +9832,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1487023607
 CircleCollider2D:
@@ -10275,7 +10382,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1587409852
 CircleCollider2D:
@@ -10495,7 +10602,7 @@ Transform:
   m_Children:
   - {fileID: 1426077968}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1633968220
 GameObject:
@@ -10554,7 +10661,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1633968223
 CircleCollider2D:
@@ -10793,7 +10900,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1651805295
 CircleCollider2D:
@@ -11042,7 +11149,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1705290981
 CircleCollider2D:
@@ -11156,7 +11263,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1717229134
 CircleCollider2D:
@@ -11524,7 +11631,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1757657648
 GameObject:
@@ -11583,7 +11690,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1757657651
 CircleCollider2D:
@@ -11831,7 +11938,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1765715155
 CircleCollider2D:
@@ -11991,7 +12098,7 @@ Transform:
   m_Children:
   - {fileID: 66051602}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1791622715
 GameObject:
@@ -12050,7 +12157,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1791622718
 CircleCollider2D:
@@ -12163,7 +12270,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1799006839
 CircleCollider2D:
@@ -12356,7 +12463,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1846777828
 CircleCollider2D:
@@ -12469,7 +12576,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1872585302
 CircleCollider2D:
@@ -12553,7 +12660,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878514388}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 59254485}
@@ -12582,7 +12689,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1878514391
 CircleCollider2D:
@@ -12695,7 +12802,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1887992393
 CircleCollider2D:
@@ -12808,7 +12915,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1890206568
 CircleCollider2D:
@@ -12921,7 +13028,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1896624923
 CircleCollider2D:
@@ -13013,7 +13120,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10445, y: 115}
+  m_AnchoredPosition: {x: 10445, y: 120}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1929617358
@@ -13034,7 +13141,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1929617359
 CircleCollider2D:
@@ -13147,7 +13254,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1938168466
 CircleCollider2D:
@@ -13260,7 +13367,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1942768615
 CircleCollider2D:
@@ -13352,7 +13459,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7543, y: 115}
+  m_AnchoredPosition: {x: 7543, y: 120}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1944104300
@@ -13373,7 +13480,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1944104301
 CircleCollider2D:
@@ -13621,7 +13728,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1977251210
 CircleCollider2D:
@@ -13734,7 +13841,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1986785682
 CircleCollider2D:
@@ -13847,7 +13954,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &1994569455
 CircleCollider2D:
@@ -13960,7 +14067,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &2084912512
 CircleCollider2D:
@@ -14045,7 +14152,7 @@ Transform:
   m_Children:
   - {fileID: 530405559}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2118992603
 GameObject:
@@ -14104,7 +14211,7 @@ MonoBehaviour:
   buttonType: {fileID: 59254487}
   buttonImg: {fileID: 0}
   soundEffects: {fileID: 59254489}
-  particleEffect: {fileID: 1223427084257338724, guid: f58962e011bd00745bd4adeca66d54fd,
+  particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
 --- !u!58 &2118992606
 CircleCollider2D:
