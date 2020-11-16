@@ -26,12 +26,22 @@ public class BeatCounter : MonoBehaviour
     private int greatBeats;
     private int perfectBeats;
     private int missedBeats;
+    
+    // NEW HEALTH SYSTEM PROTOTYPE //
+    private int playerHealth;
+    private bool canIncrementFlag;
+    private System.DateTime startTime;
+    private System.TimeSpan timeDifference;
+    private System.TimeSpan waitTime;
+    /////////////////////////////////////
+
 
     [Header("UI Components")]
     // during game
     public TMP_Text scoreTxt;
     public TMP_Text multiplierTxt;
     public TMP_Text hitQualityTxt;
+    public TMP_Text healthTxt;
     // post game
     public GameObject resultsScreen;
     public TMP_Text scoreFinalTxt;
@@ -50,6 +60,13 @@ public class BeatCounter : MonoBehaviour
         scoreTxt.text = "Score:      0";
         hitQualityTxt.text = "";
         currMultiplier = 1;
+
+        // NEW HEALTH SYSTEM PROTOTYPE //
+        playerHealth = 30;
+        waitTime = new System.TimeSpan(5000000);
+
+        healthTxt.text = "30";
+        /////////////////////////////////
 
         timer = delay;
 
@@ -86,6 +103,22 @@ public class BeatCounter : MonoBehaviour
                 ResultsScreenTexts();
             }
         }
+
+        // NEW HEALTH SYSTEM PROTOTYPE //
+        if (playerHealth < 30 && canIncrementFlag)
+        {
+            playerHealth++;
+            startTime = System.DateTime.Now;
+            canIncrementFlag = false;
+        }
+
+        timeDifference = System.DateTime.Now - startTime;
+
+        if (System.TimeSpan.Compare(timeDifference, waitTime) == 1 && !canIncrementFlag)
+            canIncrementFlag = true;
+
+        healthTxt.text = playerHealth.ToString();
+        /////////////////////////////////
     }
 
     #region Beat checks
@@ -151,7 +184,20 @@ public class BeatCounter : MonoBehaviour
 
         missedBeats++;
 
+        // New health system
+        playerHealth -= 10;
+
         Debug.Log("Misses: " + missedBeats);
+
+        //* NEW HEALTH SYSTEM
+        if (playerHealth <= 0)
+        {
+            audioSource.Stop();
+            Destroy(GameObject.Find("Notes"));
+            Destroy(GameObject.Find("HUDText"));
+            Destroy(GameObject.Find("Chords"));
+        }
+        //*/
 
         /* ADDED FOR ALPHA BUILD; SUBJECT TO CHANGE IN FUTURE BUILDS
         // If player misses three beats, the music stops. This casues the
