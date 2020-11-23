@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class BeatCounter : MonoBehaviour
 {
@@ -33,6 +34,7 @@ public class BeatCounter : MonoBehaviour
     private System.DateTime startTime;
     private System.TimeSpan timeDifference;
     private System.TimeSpan waitTime;
+    private bool hasDied = false;
     /////////////////////////////////////
 
 
@@ -44,6 +46,8 @@ public class BeatCounter : MonoBehaviour
     public TMP_Text healthTxt;
     // post game
     public GameObject resultsScreen;
+    public GameObject restartButton;
+    public GameObject nextButton;
     public TMP_Text scoreFinalTxt;
     public TMP_Text percentageTxt;
     public TMP_Text rankTxt;
@@ -118,6 +122,17 @@ public class BeatCounter : MonoBehaviour
             canIncrementFlag = true;
 
         healthTxt.text = playerHealth.ToString();
+
+        if (playerHealth > 0)
+        {
+            hasDied = false;
+        }
+        else if (playerHealth <= 0)
+        {
+            hasDied = true;
+            restartButton.SetActive(true);
+            nextButton.SetActive(false);
+        }
         /////////////////////////////////
     }
 
@@ -265,6 +280,16 @@ public class BeatCounter : MonoBehaviour
         {
             rankTxt.text = "F";
         }
+    }
+
+    public void RestartScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void NextScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
     #endregion
 }
