@@ -5,6 +5,21 @@ TagManager:
   serializedVersion: 2
   tags:
   - Activator
+  - FaceButton_X
+  - FaceButton_O
+  - FaceButton_Tri
+  - FaceButton_Sq
+  - FaceButton_Up
+  - FaceButton_Down
+  - FaceButton_Left
+  - FaceButton_Right
+  - FaceButton_RShoulder
+  - FaceButton_LShoulder
+  - FaceButton_LTrigger
+  - FaceButton_RTrigger
+  - FaceButton_LStick
+  - FaceButton_RStick
+  - ButtonTypeChecker
   layers:
   - Default
   - TransparentFX
