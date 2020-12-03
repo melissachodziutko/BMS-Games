@@ -66,7 +66,7 @@ public class BeatCounter : MonoBehaviour
         currMultiplier = 1;
 
         // NEW HEALTH SYSTEM PROTOTYPE //
-        playerHealth = 30;
+        playerHealth = 1000000;
         waitTime = new System.TimeSpan(5000000);
 
         healthTxt.text = "30";
